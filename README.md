@@ -42,6 +42,11 @@ The application is fully responsive and works smoothly across desktop, tablet, a
 
 ![Home Page](./images/dishes.png)
 
+
+🚀 Live Demo
+
+https://musical-kleicha-29370a.netlify.app/
+
 🎯 Project Objective
 
 The main objective of this project is to build a real-world food ordering platform while improving frontend development skills, UI design understanding, and practical experience in modern web development.
