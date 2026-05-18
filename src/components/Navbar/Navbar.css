@@ -1,0 +1,170 @@
+.navbar-right .signin-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-right .signin-btn:hover {
+    background-color: white;
+    color: green;
+}
+.navbar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+    background-color: #FFA500;
+}
+
+
+.navbar .logo {
+    width: 150px;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: black;
+    font-size: 18px;
+}
+
+/* 🔥 OVAL DESIGN START */
+.navbar-menu li {
+    position: relative;
+    padding: 8px 20px;
+    cursor: pointer;
+    color: black;
+    z-index: 1;
+}
+
+/* Default oval border visible */
+.navbar-menu li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background: transparent;
+    transition: 0.3s;
+    z-index: -1; /* ensure oval is behind the text */
+}
+
+/* Hover → oval fill */
+.navbar-menu li:hover::before {
+    background: #ffe5df;
+}
+
+/* Text color stays black on hover */
+.navbar-menu li:hover {
+    color: black;
+}
+
+/* Active menu item */
+.navbar-menu .active::before {
+    background: #ffe5df;
+}
+
+/* Remove default underline */
+.navbar-menu li::after {
+    display: none;
+}
+/* 🔥 OVAL DESIGN END */
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar-right img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.navbar-search-icon {
+    position: relative;
+}
+
+.navbar-search-icon .dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FF4C24;
+    border-radius: 50%;
+    top: -8px;
+    right: -8px;
+}
+
+.navbar-right button {
+    background: transparent;
+    font-size: 16px;
+    color: black;
+    border: 1px solid #FF4C24;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-right button:hover {
+    background: #fff4f2;
+}
+
+/* Responsive */
+@media (max-width: 1050px) {
+    .navbar .logo {
+        width: 140px;
+    }
+    .navbar-menu {
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar-right {
+        gap: 30px;
+    }
+    .navbar-right img {
+        width: 22px;
+    }
+    .navbar-right button {
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar .logo {
+        width: 120px;
+    }
+    .navbar-menu {
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navbar-right {
+        gap: 20px;
+    }
+    .navbar-right img {
+        width: 20px;
+    }
+    .navbar-right button {
+        font-size: 15px;
+        padding: 7px 20px;
+        background-color: red;
+    }
+}
+
+@media (max-width: 750px) {
+    .navbar-menu {
+        display: none; /* replace with hamburger menu if needed */
+    }
+}
