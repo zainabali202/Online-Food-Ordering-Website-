@@ -1,0 +1,70 @@
+.my-orders {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.my-orders h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Order card */
+.order-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Top section */
+.order-item-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.order-item-header h3 {
+  font-size: 18px;
+}
+
+.order-status {
+  color: green;
+  font-weight: bold;
+}
+
+/* Items inside order */
+.order-items {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Bottom section */
+.order-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-price {
+  font-weight: bold;
+  color: #ff4d4d;
+}
+
+/* Button */
+.order-btn {
+  padding: 6px 12px;
+  border: none;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  background-color: #e63c3c;
+}
