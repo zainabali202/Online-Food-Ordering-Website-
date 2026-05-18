@@ -37,6 +37,8 @@ The application is fully responsive and works smoothly across desktop, tablet, a
 📸 Project Screenshot
 
 ![Home Page](./images/home.png)
+![Home Page](./images/menue.png)
+![Home Page](./images/dishes.png)
 
 🎯 Project Objective
 
@@ -44,6 +46,6 @@ The main objective of this project is to build a real-world food ordering platfo
 
 👨‍💻 Developed By
 
-Zainab Ali
+    Zainab Ali
   
 
