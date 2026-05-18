@@ -45,7 +45,10 @@ The application is fully responsive and works smoothly across desktop, tablet, a
 
 🚀 Live Demo
 
-https://musical-kleicha-29370a.netlify.app/
+This project has been successfully deployed and is now live. You can explore the website and experience all features in real time using the link below.
+
+🌐 Live Website: (https://musical-kleicha-29370a.netlify.app/)
+
 
 🎯 Project Objective
 
